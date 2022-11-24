@@ -1,21 +1,8 @@
 # Rays-Levels
 iCloudius' Flying Rat can now do something himself.
 
-Thank you, kind dowloader, for playing Ray's Levels!
+What the?!
 
-This mod is strictly for Ray only. (Yes, Tails can access SSZ. Until some workaround is found,
-call this intentional.)
-This mod changes FBZ Act 1 and SSZ, so do not ask for compatability
-with:
+Ray's got a little exploring to do! New routes have been found in Flying Battery and Sky Sanctuary, and only Ray can clear them! Embark on two routes with secrets, made with love as a passion project for Extra Slot Ray and the Extra Slot Project!
 
--FBZ-Paced Improved
--Anything GFX is cookin' up (Debatable)
--Extra Slot Whoever Can Access The Area
-
-This mod will be packaged with ES Ray when complete, but reach out to me about any bugs
-(or if you solved the issue with the BG)
-
-
-Thanks for playing! See you soon!
-
--Hiro
+Thank you, to those who contributed to this very small mod that can only be played with a flying rat.
