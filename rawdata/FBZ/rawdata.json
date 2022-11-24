@@ -1,0 +1,9 @@
+{
+
+ //FBZ Act 1 
+
+	"fbz1_layout":  { "File": "Layout/1.bin" },
+	"fbz1_objects":  { "File": "Object Pos/1.bin" },
+	"fbz1_rings":  { "File": "Rings Pos/1.bin" },
+
+ }

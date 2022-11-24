@@ -1,0 +1,9 @@
+{
+
+ //ssz1
+
+	"ssz1_layout":  { "File": "Layout/1.bin" },
+	"ssz1_objects":  { "File": "Object Pos/1.bin" },
+	"ssz1_rings":  { "File": "Rings Pos/1.bin" },
+
+ }

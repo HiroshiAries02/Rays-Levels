@@ -1,0 +1,48 @@
+//# address-hook(0x052ac2) end(0x052ac2)
+function void fn052ac2()
+{
+	if ((D0.u16 > 0x2660 && D0.u16 < 0x2680) && (D1.u16 > 0x07B0 && D1.u16 < 0x0850)) // Within the little lower path's tunnel (dumb way of doing it, but it works)
+	{
+		if (u16[0xffffeed6] == 0) // Are we currently in the interior?
+		{
+			// We're currently in the interior BG
+			
+			if (D0.u16 < 0x2670) // Returning from the midpoint?
+			{
+				// Trigger the sky BG
+				u8[0xffffeed6] = 0xff
+				D0 = 8
+				D6.u16 = 0xf0
+				fn052cce()
+			}
+			else
+			{
+				// Keep the interior BG
+				fn052a2a()
+			}
+		}
+		else
+		{
+			// We're currently in the sky BG
+			
+			if (D0.u16 > 0x2670) // Past the midpoint?
+			{
+				// Trigger the interior BG
+				u16[0xffffeed6] = 0
+				D0 = 4
+				D6 = 0
+				fn052cd4()
+			}
+			else
+			{
+				// Keep the sky BG
+				fn052a2a()
+			}
+		}
+	}
+	else
+	{
+		// In a normal spot, do all the normal stuff
+		fn052a2a()
+	}
+}
